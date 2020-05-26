@@ -27,7 +27,7 @@ mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.old && 
 rm "${PIHOLE_LOCATION}"/whitelist.txt.old
 
 echo -e " [...] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
-${GRAVITY_UPDATE_COMMAND} $(cat "${PIHOLE_LOCATION}"/whitelist.txt | xargs) --comment "AnudeepND - Whitelist Only" #> /dev/null
+${GRAVITY_UPDATE_COMMAND} $(cat "${PIHOLE_LOCATION}"/whitelist.txt | xargs) --comment "AnudeepND/Whitelist" #> /dev/null
 rm "${PIHOLE_LOCATION}"/whitelist.txt
 
 sleep 0.2
@@ -40,7 +40,7 @@ mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.old && 
 rm "${PIHOLE_LOCATION}"/whitelist.txt.old
 
 echo -e " [...] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
-${GRAVITY_UPDATE_COMMAND} $(cat "${PIHOLE_LOCATION}"/whitelist.txt | xargs) --comment "AnudeepND - Optional" #> /dev/null
+${GRAVITY_UPDATE_COMMAND} $(cat "${PIHOLE_LOCATION}"/whitelist.txt | xargs) --comment "AnudeepND/Optional" #> /dev/null
 rm "${PIHOLE_LOCATION}"/whitelist.txt
 
 echo -e " ${TICK} \e[32m Pi-hole's gravity updated \e[0m"
