@@ -9,42 +9,42 @@
 </p>
          
          
-## Commonly white listed domains for Pi-Hole (Compatible with Pi-Hole Docker Image).  
+# Commonly white listed domains for Pi-Hole (Compatible with Pi-Hole Docker Image).  
           
-A robust collection of commonly white listed websites borrowed from various sources including Pi-Hole subreddit, Pi-Hole forum, Pi-Hole github repository and more!
+A robust collection of commonly white listed websites borrowed from various sources including Pi-Hole subreddit, Pi-Hole forum, Pi-Hole GitHub repository and more!
 Add these domains to your Pi-Hole setup by running a script or manually and make your setup **trouble-free!**
                 
-Want to report a new domain? Want to report exsisting one? Feel free to file an <a href="https://github.com/anudeepND/whitelist/issues">issue</a>.
+Want to report a new domain? Want to report existing one? Feel free to file an <a href="https://github.com/anudeepND/whitelist/issues">issue</a>.
          
          
  <p align="center">
-  <img height="430" src="https://raw.githubusercontent.com/anudeepND/whitelist/master/images/run.gif">
+  <img height="630" src="https://raw.githubusercontent.com/anudeepND/whitelist/master/images/whitelist.gif">
 </p> 
          
 * * *
          
-### Main features:
+## Main features:
        
 - The entire repo is curated.
 - New domains are added frequently.
 - Supports Pi-Hole Docker installation.
-- Comes with a shell script i.e you can add all domains automatically at an instant.
-- Domains are categorised and are included in 3 different files.
-- If you are a beginner to Pi-Hole, adding these sites resolves many problems. 
+- Comes with a shell script i.e you can add all domains with comments automatically at an instant.
+- Domains are categorized and are included in 3 different files.
+- If you are a beginner to Pi-Hole, adding these sites will solve issues with host files that block legit websites. 
        
 ***
      
-### Description
+## Description
           
 |      File Name     | Domain Count |                                                                                                                                                                Description                                                                                                                                                                | Update Frequency |                                             Raw Link                                            |
 |:------------------:|:------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------:|:-----------------------------------------------------------------------------------------------:|
-| whitelist.txt      | 194          | This file contain domains that are **safe** to whitelist i.e it does not contain any tracking or advertising sites. Adding this file fixes many problems like YouTube watch history, videos on news sites and so on. If you want to report additional domain feel free to file an [issue](https://github.com/anudeepND/whitelist/issues). | Occasionally     | [link](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt)      |
+| whitelist.txt      | 188          | This file contain domains that are **safe** to whitelist i.e it does not contain any tracking or advertising sites. Adding this file fixes many problems like YouTube watch history, videos on news sites and so on. If you want to report additional domain feel free to file an [issue](https://github.com/anudeepND/whitelist/issues). | Occasionally     | [link](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt)      |
 | referral-sites.txt | 72           | People who use services like Slickdeals and Fatwallet needs a few sites (most of  them are either trackers or ads) to be whitelisted to work properly. This file contains some analytics and ad serving sites like **doubleclick.net** and others. **If you don't know what these services are, stay away from this list.**               | Occasionally     | [link](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/referral-sites.txt) |
 | optional-list.txt  | --           | This file contain domains that are needed to be whitelisted depending on the service you use. It may contain some tracking site but sometimes it's necessary to add bad domains to make a few services to work. Currently there is no script for this list, you have to add domains manually to your Pi-Hole.                             | Occasionally     | [link](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-list.txt)  |    
              
 ***
            
-### Installation and Usage
+## Installation and Usage
         
  ***For Docker installation***           
  Access you running Pi-Hole container by `docker exec -it <container-ID> bash` and proceed with the steps given below:
@@ -93,7 +93,7 @@ sudo whitelist/scripts/whitelist.sh
 ```
    
 ***     
-               
+      
 ### How do I determine an ad domain?
          
 ***Adam:ONE Assistant (Previously known as DNSthingy***
