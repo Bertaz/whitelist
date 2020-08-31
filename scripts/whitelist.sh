@@ -2,7 +2,7 @@
 # This script will download and add domains from the rep to whitelist.txt file.
 # Project homepage: https://github.com/anudeepND/whitelist
 # Licence: https://github.com/anudeepND/whitelist/blob/master/LICENSE
-# Created by Anudeep (Slight change by cminion)
+# Created by Anudeep (Slight change by Bertaz)
 #================================================================================
 TICK="[\e[32m ✔ \e[0m]"
 # PIHOLE_LOCATION="/etc/pihole"
@@ -25,8 +25,7 @@ cp -f "${TEMP_LOCATION}"/domains/whitelist.txt "${TEMP_LOCATION}"/whitelist.txt.
 echo -e " ${TICK} \e[32m Adding domains to whitelist... \e[0m"
 sleep 0.1
 echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
-# mv "${TEMP_LOCATION}"/whitelist.txt "${TEMP_LOCATION}"/whitelist.txt.old && 
-sort -u "${TEMP_LOCATION}"/whitelist.txt.old > "${TEMP_LOCATION}"/whitelist.txt
+sort -u "${TEMP_LOCATION}"/whitelist.txt.old | sed -n '/^\s*$/d; /^#/!p' > "${TEMP_LOCATION}"/whitelist.txt
 rm "${TEMP_LOCATION}"/whitelist.txt.old
 
 echo -e " [...] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
@@ -40,7 +39,6 @@ cp -f "${TEMP_LOCATION}"/domains/optional-list.txt "${TEMP_LOCATION}"/whitelist.
 echo -e " ${TICK} \e[32m Adding optional domains to whitelist... \e[0m"
 sleep 0.1
 echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
-# mv "${TEMP_LOCATION}"/whitelist.txt "${TEMP_LOCATION}"/whitelist.txt.old && 
 sort -u "${TEMP_LOCATION}"/whitelist.txt.old | sed -n '/^\s*$/d; /^#/!p' > "${TEMP_LOCATION}"/whitelist.txt
 rm "${TEMP_LOCATION}"/whitelist.txt.old
 
