@@ -37,7 +37,7 @@ if [ -r "${TEMP_LOCATION}"/domains/whitelist.txt ]; then
 
 	echo -e " ${TICK} \e[32m Adding domains to whitelist... \e[0m"
 	sleep 0.1
-	echo -e " [...] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
+	echo -e " [ .. ] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
 	${GRAVITY_UPDATE_COMMAND} $(xargs < "${TEMP_LOCATION}"/whitelist.txt) --comment "AnudeepND/Whitelist"
 	#rm "${TEMP_LOCATION}"/whitelist.txt
 
@@ -62,7 +62,7 @@ if [ -r "${TEMP_LOCATION}"/domains/optional-list.txt ]; then
 
 	echo -e " ${TICK} \e[32m Adding optional domains to whitelist... \e[0m"
 	sleep 0.1
-	echo -e " [...] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
+	echo -e " [ .. ] \e[32m Pi-hole gravity rebuilding lists. This may take a while... \e[0m"
 	${GRAVITY_UPDATE_COMMAND} $(xargs < "${TEMP_LOCATION}"/optional-list.txt) --comment "AnudeepND/Optional"
 	#rm "${TEMP_LOCATION}"/optional-list.txt
 else
