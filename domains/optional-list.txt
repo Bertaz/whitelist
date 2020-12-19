@@ -111,7 +111,6 @@ cdns.gigya.com
 
 # Netflix - Domains needed for netlix to work correctly
 api-global.netflix.com
-ichnaea.netflix.com
 appboot.netflix.com
 secure.netflix.com
 
@@ -217,3 +216,7 @@ v20.events.data.microsoft.com
 
 # streamelements.com (Blocked by Pi-hole regex)
 stats.streamelements.com
+
+# Adobe licence verification endpoints
+lm.licenses.adobe.com
+activate.adobe.com
