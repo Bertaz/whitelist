@@ -9,8 +9,8 @@ WARN="[\e[33m ⚠ \e[0m]"
 CROSS="[\e[31m ✖ \e[0m]"
 # PIHOLE_LOCATION="/etc/pihole"
 TEMP_LOCATION="/opt/whitelist"
-GRAVITY_UPDATE_COMMAND="pihole -w -q"
-GRAVITY_REMOVE_COMMAND="pihole -w -q -d"
+GRAVITY_UPDATE_COMMAND="pihole -w -q -nr"
+GRAVITY_REMOVE_COMMAND="pihole -w -q -nr -d"
 
 echo -e "\n\e[1m This script will download and add domains from the repo to whitelist.txt \e[0m"
 echo -e "\e[1m All the domains in this list are safe to add and doesn't contain any tracking or adserving domains. \e[0m\n"
@@ -70,6 +70,7 @@ else
 	[ $NUMDON ] && echo -e " \e[31mBoth lists missing, aborting!\n Execute git pull in this directory to download necessary files\e[0m\n" && exit 2
 fi
 
+pihole restartdns reload
 # Done
 echo -e " ${TICK} \e[32m Pi-hole's gravity updated \e[0m"
 echo -e " ${TICK} \e[32m Done! \e[0m"

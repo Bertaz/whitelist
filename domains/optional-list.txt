@@ -3,11 +3,11 @@
 # Licence: https://github.com/anudeepND/whitelist/blob/master/LICENSE
 
 # Adult Swim Videos on Amazon Firestick
-pmd.cdn.turner.com
-i.cdn.turner.com
-s.cdn.turner.com
-z.cdn.turner.com
-amd.cdn.turner.com
+# pmd.cdn.turner.com
+# i.cdn.turner.com
+# s.cdn.turner.com
+# z.cdn.turner.com
+# amd.cdn.turner.com
 
 # Amazon Alexa and Amazon Shopping app
 device-metrics-us-2.amazon.com
@@ -27,9 +27,9 @@ us-east-1.amazonaws.com
 sqs.us-east-1.amazonaws.com
 
 # Bild.de
-acdn.adnxs.com
-cdn1.smartadserver.com
-ec-ns.sascdn.com
+# acdn.adnxs.com
+# cdn1.smartadserver.com
+# ec-ns.sascdn.com
 
 # DirectTV Now
 js.maxmind.com
@@ -98,9 +98,9 @@ zeustracker.abuse.ch
 ae01.alicdn.com
 
 # Jackbox.tv
-www.google-analytics.com
-google-analytics.com
-ssl.google-analytics.com
+# www.google-analytics.com
+# google-analytics.com
+# ssl.google-analytics.com
 
 # Lotus talk
 lotustalk.com
@@ -164,8 +164,8 @@ a463.w10.akamai.net
 a790.w16.akamai.net
 
 # Share buttons on websites
-dsms0mj1bbhn4.cloudfront.net
-shareaholic.com
+# dsms0mj1bbhn4.cloudfront.net
+# shareaholic.com
 
 # Sky Go (skygo.sky.de)
 assets.adobedtm.com
@@ -180,9 +180,9 @@ spclient.wg.spotify.com
 audio-ake.spotify.com.edgesuite.net
 
 # Target's Weekly Ads
-weeklyad.target.com
-m.weeklyad.target.com
-weeklyad.target.com.edgesuite.net
+# weeklyad.target.com
+# m.weeklyad.target.com
+# weeklyad.target.com.edgesuite.net
 
 # UK University application website
 # https://github.com/anudeepND/whitelist/issues/30
@@ -199,7 +199,7 @@ www.ow.ly
 amzn.to
 amzn.com
 
-# Videos not playing on  arstechnica/wired/vogue/newyorker
+# Videos not playing on arstechnica/wired/vogue/newyorker
 # Note: ads before videos may appear after whitelisting this domain
 d2c8v52ll5s99u.cloudfront.net
 
