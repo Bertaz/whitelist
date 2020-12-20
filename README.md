@@ -1,5 +1,5 @@
 <div align="center">  
-  <img width="550" alt="Whitelist logo" src="https://raw.githubusercontent.com/anudeepND/whitelist/master/images/logo.png">
+  <img width="550" alt="Whitelist logo" src="https://raw.githubusercontent.com/Bertaz/whitelist/master/images/logo.png">
 </div>
 
 <br />
@@ -10,28 +10,28 @@
     <img src="https://img.shields.io/badge/Python-v3-9cf" alt="repo size" >
   <a/>
   <a href="#" > 
-    <img src="https://img.shields.io/github/repo-size/anudeepnd/whitelist?label=Repo%20Size&color=orange" alt="repo size" >
+    <img src="https://img.shields.io/github/repo-size/Bertaz/whitelist?label=Repo%20Size&color=orange&branch=crontab" alt="repo size" >
   <a/>
    <a href="#" > 
-    <img src="https://img.shields.io/github/stars/anudeepnd/whitelist?label=Stars" alt="stars" >
+    <img src="https://img.shields.io/github/stars/Bertaz/whitelist?label=Stars" alt="stars" >
   <a/>   
   <a href="#" > 
-    <img src="https://img.shields.io/github/last-commit/anudeepnd/whitelist?label=Last%20Updated" alt="last updated" >
+    <img src="https://img.shields.io/github/last-commit/Bertaz/whitelist?label=Last%20Updated" alt="last updated" >
   <a/>
-   <a href="https://github.com/anudeepND/whitelist/commits/master" > 
-    <img src="https://img.shields.io/github/commit-activity/y/anudeepnd/whitelist?label=Commit%20Activity" alt="commit activity" >
+   <a href="https://github.com/Bertaz/whitelist/commits/master" > 
+    <img src="https://img.shields.io/github/commit-activity/y/Bertaz/whitelist?label=Commit%20Activity" alt="commit activity" >
   <a/>
-  <a href="https://github.com/anudeepND/whitelist/issues" > 
-    <img src="https://img.shields.io/github/issues-raw/anudeepnd/whitelist?label=Open%20Issues&color=critical" alt="open issues" >
+  <a href="https://github.com/Bertaz/whitelist/issues" > 
+    <img src="https://img.shields.io/github/issues-raw/Bertaz/whitelist?label=Open%20Issues&color=critical" alt="open issues" >
   <a/>
-  <a href="https://github.com/anudeepND/whitelist/issues?q=is%3Aissue+is%3Aclosed" > 
-    <img src="https://img.shields.io/github/issues-closed-raw/anudeepnd/whitelist?label=Closed%20Issues&color=inactive" alt="closed issues" >
+  <a href="https://github.com/Bertaz/whitelist/issues?q=is%3Aissue+is%3Aclosed" > 
+    <img src="https://img.shields.io/github/issues-closed-raw/Bertaz/whitelist?label=Closed%20Issues&color=inactive" alt="closed issues" >
   <a/>
-  <a href="https://github.com/anudeepND/whitelist/graphs/contributors" > 
-    <img src="https://img.shields.io/github/contributors/anudeepnd/whitelist?label=Contributors&color=yellow" alt="contributors" >
+  <a href="https://github.com/Bertaz/whitelist/graphs/contributors" > 
+    <img src="https://img.shields.io/github/contributors/Bertaz/whitelist?label=Contributors&color=yellow" alt="contributors" >
   <a/>
-  <a href="https://github.com/anudeepND/whitelist/blob/master/LICENSE" > 
-    <img src="https://img.shields.io/github/license/anudeepnd/whitelist?label=License&color=blueviolet" alt="license" >
+  <a href="https://github.com/Bertaz/whitelist/blob/master/LICENSE" > 
+    <img src="https://img.shields.io/github/license/Bertaz/whitelist?label=License&color=blueviolet" alt="license" >
   <a/>
 </div>
     
@@ -44,30 +44,26 @@
   
 A robust collection of commonly white listed websites borrowed from various sources including Pi-Hole subreddit, Pi-Hole forum, Pi-Hole GitHub repository and more!
 Add these domains to your Pi-Hole setup by running a script or manually and make your setup __trouble-free!__
-Want to report a new domain? Want to report existing one? Feel free to file an [issue](https://github.com/anudeepND/whitelist/issues).
+Want to report a new domain? Want to report existing one? Feel free to file an [issue](https://github.com/Bertaz/whitelist/issues).
 
 </div>
 
 <div align="center">
   <h3>
-    <a href="https://github.com/anudeepND/whitelist/releases">
+    <a href="https://github.com/Bertaz/whitelist/releases">
       Releases
     </a>
     <span> | </span>
-    <a href="https://github.com/anudeepND/whitelist/pulse/monthly">
+    <a href="https://github.com/Bertaz/whitelist/pulse/monthly">
       Pulse
     </a>
     <span> | </span>
-    <a href="https://github.com/anudeepND/whitelist/issues">
+    <a href="https://github.com/Bertaz/whitelist/issues">
       Submit Issue
     </a>
     <span> | </span>
-    <a href="https://github.com/anudeepND/whitelist/pulls">
+    <a href="https://github.com/Bertaz/whitelist/pulls">
       Submit PR
-    </a>
-    <span> | </span>
-    <a href="https://www.paypal.com/paypalme/anudeepND">
-      Donate
     </a>
   </h3>
 </div>       
@@ -75,23 +71,18 @@ Want to report a new domain? Want to report existing one? Feel free to file an [
 
 <br />
 
-![Whitelist install demo gif](https://raw.githubusercontent.com/anudeepND/whitelist/master/images/whitelist.gif)
+![Whitelist install demo gif](https://raw.githubusercontent.com/Bertaz/whitelist/master/images/whitelist.gif)
 
 <br />
 
 ## <ins>Table of contents</ins>
 - [Features](#features)
 - [Overview](#overview)
-- [Installation](#installation)
+- [Installation](#installation-and-usage)
   * [For whitelist.txt](#for-whitelisttxt)
-  * [For referral-sites.txt](#for-referral-sitestxt)
   * [For optional-list.txt](#for-optional-listtxt)
-  * [For Docker installation (with Python3 support)](#for-docker-installation-with-python3-support)
-  * [For Docker installation (without Python3 support) or /etc/pihole on different directory](#for-docker-installation-without-python3-support-or-etcpihole-on-different-directory)
-- [Uninstall](#uninstall)
 - [Automated Update](#automated-update)
 - [How do I determine an ad domain?](#how-do-i-determine-an-ad-domain)
-- [Stargazers over time ](#stargazers-over-time)
 - [Support](#support)
 - [License ](#license)
 
@@ -112,9 +103,8 @@ Want to report a new domain? Want to report existing one? Feel free to file an [
 
 | File Name | Domain Count | Description | Update Frequency | Raw Link |
 |:-:|:-:|:-:|:-:|:-:|
-| whitelist.txt | 191 | This file contain domains that are __safe__ to whitelist i.e. it does not contain any tracking or advertising sites. Adding this file fixes many problems like YouTube watch history, videos on news sites and so on. If you want to report additional domain feel free to file an [issue](https://github.com/anudeepND/whitelist/issues). | Occasionally | [link](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt) |
-| referral-sites.txt | 75 | People who use services like Slickdeals and Fatwallet needs a few sites (most of  them are either trackers or ads) to be whitelisted to work properly. This file contains some analytics and ad serving sites like __doubleclick.net__ and others. __If you don't know what these services are, stay away from this list.__ | Occasionally | [link](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/referral-sites.txt) |
-| optional-list.txt | -- | This file contain domains that are needed to be whitelisted depending on the service you use. It may contain some tracking site but sometimes it's necessary to add bad domains to make a few services to work. Currently there is no script for this list, you have to add domains manually to your Pi-Hole. | Occasionally | [link](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-list.txt) |
+| whitelist.txt | 191 | This file contain domains that are __safe__ to whitelist i.e. it does not contain any tracking or advertising sites. Adding this file fixes many problems like YouTube watch history, videos on news sites and so on. If you want to report additional domain feel free to file an [issue](https://github.com/Bertaz/whitelist/issues). | Occasionally | [link](https://raw.githubusercontent.com/Bertaz/whitelist/master/domains/whitelist.txt) |
+| optional-list.txt | 140 | This file contain domains that are needed to be whitelisted depending on the service you use. It may contain some tracking site but sometimes it's necessary to add bad domains to make a few services to work. Currently there is no script for this list, you have to add domains manually to your Pi-Hole. | Occasionally | [link](https://raw.githubusercontent.com/Bertaz/whitelist/master/domains/optional-list.txt) |
 
 ***
 
@@ -122,8 +112,9 @@ Want to report a new domain? Want to report existing one? Feel free to file an [
 
  If you keep the `/etc/pihole` on a volume outside the container you need to change `PIHOLE_LOCATION`and `GRAVITY_UPDATE_COMMAND` variables based on your setup.
 
+#### For whitelist.txt
 ```Shell
-git clone https://github.com/anudeepND/whitelist.git
+git clone https://github.com/Bertaz/whitelist.git
 cd whitelist/scripts
 sudo ./whitelist.sh
 ```
@@ -137,7 +128,7 @@ You can add it manually depending upon the service you use.
 
 ```Shell
 cd /opt/
-sudo git clone https://github.com/anudeepND/whitelist.git
+sudo git clone https://github.com/Bertaz/whitelist.git
 ```
 
 Make the script to run the script at 1AM on the last day of the week
